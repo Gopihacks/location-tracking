@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Figtree;
+    background-image: linear-gradient(to left,#A9F1DF , #FFBBBB);
+    height: 100%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row .login-word{
+    text-align: center;
+    margin-bottom: 15px ;
+}
+.login{
+    padding: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 12px 12px 20px #ec6464;
+}
+.login .fp a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn{
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.login-btn button{
+    padding: 8px 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.login-btn button:hover{
+    background-color: #ec6464;
+}
+.overlay
+{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup_box
+{
+    background-color: #fd6569;
+    width: 40%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    top: 20%;
+    left: 30%;
+    display: none;
+}
+
+

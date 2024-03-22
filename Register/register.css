@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Figtree;
+    background-image: linear-gradient(to left,#A9F1DF , #FFBBBB);
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row .register-word{
+    text-align: center;
+    margin-bottom: 15px ;
+}
+.register{
+    padding: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 12px 12px 20px #ec6464;
+}
+.register-btn{
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.register-btn button{
+    padding: 8px 20px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.register-btn button:hover{
+    background-color: tomato;
+}

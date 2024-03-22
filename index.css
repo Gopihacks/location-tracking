@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Figtree;
+    background-image: linear-gradient(to left,#A9F1DF , #FFBBBB);
+    height: 100%;
+}
+.navbar{
+    border-bottom: 1px solid gray;
+}
+.navbar-brand span{
+    color: red;
+    font-weight: 700;
+}
+.collapse ul li a,.navbar-brand{
+    font-size: 23px;
+    font-weight: 600;
+   
+}
+.collapse ul li a:hover{
+    color: tomato;
+}
+
+.container-fluid .row .content{
+    display:grid;
+    place-content: center;
+}
+
+.container-fluid .row .content span{
+    color: red;
+}
+.container-fluid .row {
+    border-top: 1px solid gray;
+}
+
+
+.container-fluid .row .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-fluid .row .btns button{
+    background-color: transparent;
+    padding: 6px 13px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.container-fluid .row .btns button:hover{
+    background-color: tomato;
+}
+
