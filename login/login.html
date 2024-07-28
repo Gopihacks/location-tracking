@@ -50,16 +50,16 @@
   ></script>
 
   <script>
-    function auth(){
+    function auth(e){
+      event.preventDefault();
       var email=document.getElementById("email").value;
     var password=document.getElementById("password").value;
     if(email=="admin@gmail.com" && password=="admin123"){
       alert("Login successful ");
-      window.location.assign("./project/project.html");
+      window.location.href="./project/project.html";
     }
     else{
       alert("Invalid username or password");
-      return;
     }
     }
   </script>
